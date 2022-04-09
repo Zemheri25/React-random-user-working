@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.random {
+  background-color: #fefefe;
+  width: 45vw;
+  min-width: 450px;
+  /* min-height: 400px;
+  height: 65vh; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -8rem;
+
+}
+.container-orange {
+  padding-top: 0.5rem;
+  background-color: #fec861;
+  height: 45vh;
+}
+
+.random-empty {
+  height: 10vh;
+  min-height: 75px;
+  background-color: #f1f4f7;
+  border-bottom: 1px solid rgb(174, 170, 170);
+}
+.random-img {
+  display: flex;
+  justify-content: center;
+  margin-top: -5rem;
+}
+.random-icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.random-button {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.random-table {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.random-table-div {
+  width: 95vw;
+  /* padding: 1rem; */
+  word-wrap: break-word;
+  /* border: 1px solid black; */
+}
+thead *{
+  /* border: 1px solid black;  */
+  background-color: rgb(255, 200, 98);
+  gap: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+th {
+  margin: 2rem;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  border: 2px solid #9c4d8c;
+  border-radius: 5px;
+}
+
+.image {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border:5px solid rgb(255, 255, 255);
+}
+
+.icon {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* border:2px solid rgb(151, 133, 133); */
+}
+
+@media only screen and (max-width: 950px) {
+  .random-table-div{
+    max-width: 330px;
+  }
+  
+}

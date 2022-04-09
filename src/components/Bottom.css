@@ -1,0 +1,9 @@
+.bottom {
+    
+
+    height: 5rem;
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
